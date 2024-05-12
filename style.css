@@ -1,0 +1,171 @@
+.body{
+    background-color: coral;
+}
+.col{
+
+}
+.about{
+    margin:100px;
+    padding:200px;
+    
+}
+
+.navbar{
+    background-color:#f6ddc7;
+    height:90px;
+    margin:20px;
+    border-radius:16px;
+    padding:0.5rem;
+}
+.navbar-brand{
+    font-weight:500;
+    color:brown;
+    font-size:24px;
+    transition:0.3s color;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    border:none;
+    font-size:1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+ box-shadow:none;
+ outline:none;
+}
+.nav-link{
+    color:blueviolet;
+    font: weight 500px;
+}
+.nav-link:hover, .nav-link.active{
+    color:antiquewhite;
+}
+.nav-link::before{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width: 1005px;
+    height:2px;
+    background-color:blue;
+    visibility:hidden;
+    transition:0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    font-weight: bold;
+    color: #ff6600; 
+    text-decoration: underline;
+
+
+}
+.navbar-nav .nav-link {
+    color: #aaa;
+    font-weight: normal;
+    text-decoration: none; 
+    transition: color 0.3s;
+
+}
+
+
+#logo{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:brown;
+    font-size: 100;
+}
+ .hero{
+    height:40vh;
+    background:url('8cdfb1cf11a88cbbb02b0412ce6476eb-w2880-b6.jpg ' ) center/cover no-repeat;
+    background-size: 1300px 900px;
+    margin-bottom:2rem;
+    border-radius:var(--borderRadius);
+    position:relative;
+    
+ }  
+ .hero-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(red, rgb(133, 46, 134), blue, alpha);
+    border-radius:var(--borderRadius);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }     
+.hero-text{
+    text-align: center;
+    color:var(--white);
+
+}
+
+.text{
+    color:bisque
+}
+#myimage{
+    width:200px;
+    height:200px;
+}
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+
+}
+.carousel-caption{
+ bottom:220px;
+ z-index:2;
+
+}
+.carousel-caption h5{
+    font: size 45px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:25px;
+}
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size:18px;
+    line-height:1.9;
+}
+.carousel-inner::before{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7);
+    z-index: 1;
+
+}
+:relative;
+    
+ 
+.reci{
+    background-color:burlywood;
+}
+    
+.body{
+    background-color:rgb(151, 119, 119);
+}
+.about{
+    background-color:rgb(151, 119, 119)
+}
+#aboutme{
+     color : antiquewhite;
+}
+.reci{
+    background-color:rgb(151, 119, 119)
+}
+.contact{
+    background-color:rgb(151, 119, 119) 
+}
+.recipeC{
+    background-color: rgb(151, 119, 119)
+
+}
+.recipe1{
+    background-color:rgb(151, 119, 119)
+}
